@@ -8,9 +8,11 @@ A end-to-end SQL project analysing Zepto's product catalogue — covering data e
 
 ```
 zepto-sql-analysis/
-├── zepto.csv          # Raw dataset (~3,700+ product SKUs)
-├── zepto.sql          # All SQL queries (table creation → cleaning → analysis)
-└── README.md
+├── zepto.csv         
+├── zepto.sql
+├── README.md
+├── Outputs        
+└── LICENSE
 ```
 
 ---
@@ -102,23 +104,6 @@ See the [SQL file](zepto.sql) for full queries.
 
 ---
 
-## ▶️ How to Run
+## ⭐ Give a Star
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/your-username/zepto-sql-analysis.git
-   ```
-2. Open your PostgreSQL client (pgAdmin or psql)
-3. Create a new database
-4. Import `zepto.csv` or run the `CREATE TABLE` block from `zepto.sql`
-5. Execute the queries section by section
-
----
-
-## 🤝 Connect
-
-If you found this project useful or have suggestions, feel free to open an issue or connect with me on [LinkedIn](www.linkedin.com/in/bhumika-maji-66497a327).
-
----
-
-> **Note:** This dataset is for educational/analytical purposes only. Data sourced from Zepto's public product catalogue.
+If you found this project helpful or interesting, consider giving it a star — it means a lot and helps others discover it too!
